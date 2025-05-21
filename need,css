@@ -1,0 +1,23 @@
+/* Black Bar Styling with Blurry Background */
+.announcement-bar {
+	background-image: url('./images/Eat-Quick-Logo.png'); /* Replace with the path to your background image */
+	background-size: cover; /* Cover the entire area */
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Prevent the background from repeating */
+}
+
+
+
+.announcement-bar {
+	background-color: #ffffff7d; /* White background */
+	color: #00b4ae; /* blue-green text */
+	padding: 35px 0; /* Adjust padding to space the text and button */
+	text-align: center; /* Center align the content */
+	display: flex; /* Use flexbox for aligning content */
+	justify-content: space-between; /* Space out the elements */
+	align-items: center; /* Vertically center the content */
+	position: relative;
+}
+
+
+
