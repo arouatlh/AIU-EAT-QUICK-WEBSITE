@@ -9,6 +9,10 @@ print("Flask app is starting...")
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
 
+@app.route('/')
+def home():
+    return render_template('index.html')
+
 def checkAppropriateFile(file):
     ALLOWED_EXTENSIONS = ['png', 'jpg', 'jpeg']
     for f in ALLOWED_EXTENSIONS:
